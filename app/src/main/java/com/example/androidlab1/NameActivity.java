@@ -35,6 +35,7 @@ public class NameActivity extends AppCompatActivity {
             Intent result = new Intent();
             EditText nameField = findViewById(R.id.nameField);
             String name = nameField.getText().toString();
+            if (name.isEmpty()) name = "user";
             result.putExtra("message", greeting + ", " + name + '!');
             setResult(RESULT_OK, result);
             finish();

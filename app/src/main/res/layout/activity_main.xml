@@ -15,7 +15,7 @@
         android:layout_marginStart="16dp"
         android:textSize="16sp"
         android:maxLength="50"
-        android:hint="Введите приветствие"
+        android:hint="Введите приветствие (Hello, если пусто)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />

@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Intent nameIntent = new Intent(this, NameActivity.class);
         EditText greetingField = findViewById(R.id.greetingField);
         String greeting = greetingField.getText().toString();
+        if (greeting.isEmpty()) greeting = "Hello";
         nameIntent.putExtra("message", greeting);
         startActivityForResult(nameIntent, 1);
     }

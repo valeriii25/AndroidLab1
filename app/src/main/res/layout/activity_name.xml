@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:textSize="16sp"
         android:maxLength="50"
-        android:hint="Введите имя"
+        android:hint="Введите имя (user, если пусто)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />
